@@ -1,0 +1,34 @@
+{
+  "portfolio": [
+    {
+      "cover": "/portfolio/1/1.png",
+      "title": "Random Quote Machine",
+      "description": "1 project",
+      "url": "https://eldergera.github.io/Random-Quote-Machine/"
+    },
+    {
+      "cover": "/portfolio/2/2.png",
+      "title": "Markdown",
+      "description": "2 project",
+      "url": "https://eldergera.github.io/Markdown/"
+    },
+    {
+      "cover": "/portfolio/3/3.png",
+      "title": "Drum Machine",
+      "description": "3 project",
+      "url": "https://eldergera.github.io/Drum-Machine/"
+    },
+    {
+      "cover": "/portfolio/4/4.png",
+      "title": "Calculator JavaScript",
+      "description": "4 project",
+      "url": "https://eldergera.github.io/Calculator-JavaScript/"
+    },
+    {
+      "cover": "/portfolio/5/5.png",
+      "title": "Clock Time",
+      "description": "5 project",
+      "url": "https://eldergera.github.io/Clock-Time/"
+    }
+  ]
+}

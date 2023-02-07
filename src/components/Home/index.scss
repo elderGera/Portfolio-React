@@ -1,0 +1,86 @@
+.home-page {
+  .text-zone {
+    position: absolute;
+    left: 10%;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 40%;
+    max-height: 90%;
+    z-index: 2;
+  }
+
+  h1 {
+    color: #739a28;
+    font-size: 53px;
+    margin: 0;
+    font-family: 'Comic Neue', cursive;
+    font-weight: 400;
+    min-width: 497px;
+
+    &::before {
+      content: '<h1>';
+      font-family: 'La Belle Aurore';
+      color: #4d4d4e;
+      font-size: 18px;
+      position: absolute;
+      margin-top: -40px;
+      left: 15px;
+      opacity: 0.5;
+    }
+
+    &::after {
+      content: '</h1>';
+      font-family: 'La Belle Aurore';
+      color: #4d4d4e;
+      font-size: 18px;
+      position: absolute;
+      margin-top: 18px;
+      margin-left: 20px;
+      animation: fadeIn 1s 1.7s backwards;
+      opacity: 0.5;
+    }
+
+    img {
+      width: 32px;
+      margin-left: 20px;
+      opacity: 0;
+      height: auto;
+      animation: rotateIn 1s linear both;
+      animation-delay: 1.4s;
+    }
+  }
+
+  h2 {
+    color: #4d4d4e;
+    min-width: 400px;
+    max-width: 432px;
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 18px;
+    font-family: 'La Belle Aurore';
+    letter-spacing: 2px;
+    animation: fadeIn 1s 1.8s backwards;
+  }
+
+  .flat-button {
+    color: #ffd700;
+    background: #4d4d4e;
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: 4px;
+    font-family: 'Comic Neue', cursive;
+    text-decoration: none;
+    padding: 10px 18px;
+    border: 2px solid #ffd700;
+    border-radius: 10px;
+    margin-top: 25px;
+    float: left;
+    animation: fadeIn 1s 1.8s backwards;
+    white-space: nowrap;
+
+    &:hover {
+      background: #ffd700;
+      color: #000;
+    }
+  }
+}
